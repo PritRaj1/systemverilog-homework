@@ -20,6 +20,7 @@
           pkgs.verilator
           pkgs.yosys
           pkgs.gtkwave
+          pkgs.verible
 
           pkgs.jdk17_headless
           pkgs.glibcLocales

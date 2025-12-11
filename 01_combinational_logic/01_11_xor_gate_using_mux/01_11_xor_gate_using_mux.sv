@@ -2,11 +2,11 @@
 // Example
 //----------------------------------------------------------------------------
 
-module mux
-(
-  input  d0, d1,
-  input  sel,
-  output y
+module mux (
+    input  d0,
+    d1,
+    input  sel,
+    output y
 );
 
   assign y = sel ? d1 : d0;
@@ -17,8 +17,7 @@ endmodule
 // Task
 //----------------------------------------------------------------------------
 
-module xor_gate_using_mux
-(
+module xor_gate_using_mux (
     input  a,
     input  b,
     output o
